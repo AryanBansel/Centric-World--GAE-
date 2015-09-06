@@ -1,0 +1,84 @@
+#content{
+	
+	margin: 0 auto;
+	width: 1000px;
+	
+	position: relative;
+	height: 350px;
+}
+
+
+
+#player {
+    width: 348px;
+    height: 240px;
+    overflow: hidden;
+    background: gray;
+    position: absolute;
+    border: solid 2px gray;
+}
+
+.youtube .carousel {
+    width: 20%;
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    right: 0px;
+    z-index: 3;
+}
+
+.youtube .thumbnail {
+    margin: 2px;
+    width: 80%;
+    border: 1px solid black;  
+}
+
+.youtube iframe.player {
+    width: 80%;
+    height: 240px;  
+    overflow: auto;
+    border: 0;
+}
+
+#partner-change{
+	background-color: white;
+}
+
+.pad-class{
+	padding-top:20px;
+}
+
+body{
+	background-image: url("images/wall.jpg");
+}
+
+	  /*  .ticker {
+	            width: 400px;
+	            height: 200px;
+	            overflow: hidden;
+	            border: 1px solid #DDD;
+	            border-radius: 5px;
+	            box-shadow: 0px 0px 5px #DDD;
+	            background-color:  #F5F3E5;
+	            text-align: left;
+	            }
+	            
+	        .ticker h3 {
+	            padding: 0 0 10px 10px;
+	            border-bottom: 1px solid #A7A7A7;
+	            }
+	            
+	            ul {
+	            list-style: none;
+	            padding: 0;
+	            margin: 0;
+	            font-style: italic;
+	            }
+	            
+	            ul li {
+	            list-style: none;
+	            height:50px;
+	            padding:7px;
+	            border-bottom: 1px solid #D6CFB8;
+	            }
+*/
